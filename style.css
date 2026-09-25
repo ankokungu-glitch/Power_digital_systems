@@ -23,9 +23,20 @@
   --site-scale: 1;
 }
 
-html.site-size-default { --site-scale: 1; }
-html.site-size-plus { --site-scale: 1.08; }
-html.site-size-large { --site-scale: 1.16; }
+html.site-size-default {
+  --site-scale: 1;
+  font-size: 100%;
+}
+
+html.site-size-plus {
+  --site-scale: 1.12;
+  font-size: 112%;
+}
+
+html.site-size-large {
+  --site-scale: 1.24;
+  font-size: 124%;
+}
 
 * { box-sizing: border-box; }
 
