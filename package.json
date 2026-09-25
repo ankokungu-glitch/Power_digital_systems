@@ -1,0 +1,25 @@
+{
+  "name": "power-digital-systems",
+  "version": "1.0.0",
+  "description": "Power Digital Systems - Electrical & Electronic Repair Services Website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx http-server . -p 3000",
+    "start": "npx http-server . -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankokungu-glitch/Power_digital_systems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankokungu-glitch/Power_digital_systems/issues"
+  },
+  "homepage": "https://github.com/ankokungu-glitch/Power_digital_systems#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
