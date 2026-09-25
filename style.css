@@ -30,12 +30,12 @@ html.site-size-default {
 
 html.site-size-plus {
   --site-scale: 1.12;
-  font-size: 112%;
+  font-size: 120%;
 }
 
 html.site-size-large {
   --site-scale: 1.24;
-  font-size: 124%;
+  font-size: 200%;
 }
 
 * { box-sizing: border-box; }
