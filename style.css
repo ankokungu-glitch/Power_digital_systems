@@ -235,9 +235,10 @@ ul {
   justify-content: center;
   flex-shrink: 0;
 }
-.logo-mark svg {
-  width: 32px;
-  height: 32px;
+.logo-mark img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
 }
 .logo-text {
   font-family: var(--font-display);
@@ -754,6 +755,17 @@ ul {
 .footer-col a,
 .footer-tag {
   color: #A9B7CC;
+}
+.footer-brand-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.footer-brand-mark {
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  object-fit: contain;
 }
 .footer-name {
   color: #fff;
